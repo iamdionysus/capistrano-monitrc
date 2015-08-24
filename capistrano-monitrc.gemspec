@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{capistrano3 monitrc download upload task}
   spec.homepage      = ""
 
-  spec.files         = Dir["*.gemspec", "*.md", "bin/*", "lib/**/*.rb"]
+  spec.files         = Dir["*.gemspec", "*.md", "lib/**/*.rb", "lib/**/*.rake"]
   spec.bindir        = "bin"
   spec.executables   = []
   spec.require_paths = ["lib"]
