@@ -12,12 +12,9 @@ Gem::Specification.new do |spec|
   spec.homepage      = ""
 
   spec.files         = Dir["*.gemspec", "*.md", "lib/**/*.rb", "lib/**/*.rake"]
-  spec.bindir        = "bin"
-  spec.executables   = []
   spec.require_paths = ["lib"]
 
   spec.add_dependency "capistrano", "~> 3.1"
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "minitest"
 end
