@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = %w(iamdionysus@gmail.com)
 
   spec.summary       = %q{capistrano3 monitrc download upload task}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/iamdionysus/capistrano-monitrc"
 
   spec.files         = Dir["*.gemspec", "*.md", "lib/**/*.rb", "lib/**/*.rake"]
   spec.require_paths = ["lib"]
